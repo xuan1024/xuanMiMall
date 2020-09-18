@@ -4,7 +4,7 @@
       <order-header></order-header>
       <router-view></router-view>
       <nav-footer></nav-footer>
-      order
+      order  
     </div>
 </template>
 <script>
