@@ -3,6 +3,19 @@
     <router-view/>
   </div>
 </template>
+<script>
+import storage from './storage'
+export default {
+  data(){
+
+  },
+  mounted(){
+    // storage.setItem('a',1);
+    storage.setItem('abc',{a:1},'user');
+
+  }
+}
+</script>
 
 <style>
 #app {
